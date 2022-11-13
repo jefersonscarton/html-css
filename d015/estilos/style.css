@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.74);
+}
+
+#imagem{
+    display: block;
+    background: #5f2c82 url('../imagens/fundo.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+}
+
+#formulario{
+    display: block;
+    padding: 10px;
+}
